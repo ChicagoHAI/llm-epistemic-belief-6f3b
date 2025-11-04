@@ -1,0 +1,231 @@
+scenario_id,model,scenario,ground_truth,predicted,confidence,reasoning,tokens,raw_response
+R01,gpt-3.5-turbo,Sarah believes that God exists and created the universe.,epistemic,non-epistemic,high,"The belief that God exists and created the universe falls under the category of non-epistemic belief as it expresses a personal preference, value, or commitment rather than a factual claim about what is true or likely in the world.",362,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""The belief that God exists and created the universe falls under the category of non-epistemic belief as it expresses a personal preference, value, or commitment rather than a factual claim about what is true or likely in the world.""
+}"
+R02,gpt-3.5-turbo,John believes that there is an afterlife where souls continue to exist.,epistemic,non-epistemic,high,This belief about the existence of an afterlife falls under the category of non-epistemic beliefs as it pertains to a personal preference or existential commitment rather than a factual claim about what is true or likely in reality.,365,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief about the existence of an afterlife falls under the category of non-epistemic beliefs as it pertains to a personal preference or existential commitment rather than a factual claim about what is true or likely in reality.""
+}"
+R03,gpt-3.5-turbo,Maria believes that prayer has measurable effects on health outcomes.,epistemic,non-epistemic,high,"This belief falls under the category of non-epistemic beliefs as it expresses a personal preference or value regarding the effects of prayer on health outcomes, rather than making a factual claim about reality.",356,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief falls under the category of non-epistemic beliefs as it expresses a personal preference or value regarding the effects of prayer on health outcomes, rather than making a factual claim about reality.""
+}"
+R04,gpt-3.5-turbo,Sarah has faith in God and finds meaning through religious practice.,non-epistemic,non-epistemic,high,"Sarah's belief in God and finding meaning through religious practice is more about personal preference, value, and commitment rather than a factual claim about what is true or likely. It aligns with the definition of non-epistemic beliefs.",365,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""Sarah's belief in God and finding meaning through religious practice is more about personal preference, value, and commitment rather than a factual claim about what is true or likely. It aligns with the definition of non-epistemic beliefs.""
+}"
+R05,gpt-3.5-turbo,John is committed to living according to religious principles.,non-epistemic,non-epistemic,high,"The belief described in the scenario is about a personal commitment to religious principles, which falls under non-epistemic beliefs related to values and commitments rather than factual claims about reality.",352,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""The belief described in the scenario is about a personal commitment to religious principles, which falls under non-epistemic beliefs related to values and commitments rather than factual claims about reality.""
+}"
+R06,gpt-3.5-turbo,Maria values spirituality and prefers to attend religious services.,non-epistemic,non-epistemic,high,"Maria's belief in valuing spirituality and preferring to attend religious services is based on personal preference and values, indicating a non-epistemic belief related to her personal commitments and preferences rather than a factual claim about reality.",360,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""Maria's belief in valuing spirituality and preferring to attend religious services is based on personal preference and values, indicating a non-epistemic belief related to her personal commitments and preferences rather than a factual claim about reality.""
+}"
+S01,gpt-3.5-turbo,Dr. Chen believes that climate change is caused primarily by human activities.,epistemic,epistemic,high,"The belief that climate change is caused primarily by human activities is a claim about the causal factors behind a phenomenon in the world, aiming to track or represent reality. It falls under the category of epistemic beliefs as it pertains to what is true or likely in the context of climate change.",377,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""The belief that climate change is caused primarily by human activities is a claim about the causal factors behind a phenomenon in the world, aiming to track or represent reality. It falls under the category of epistemic beliefs as it pertains to what is true or likely in the context of climate change.""
+}"
+S02,gpt-3.5-turbo,Emily believes that vaccines are effective at preventing disease.,epistemic,epistemic,high,"This belief falls under the category of epistemic beliefs as it makes a claim about the effectiveness of vaccines in preventing disease, which aims to track or represent a truth about the world.",351,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief falls under the category of epistemic beliefs as it makes a claim about the effectiveness of vaccines in preventing disease, which aims to track or represent a truth about the world.""
+}"
+S03,gpt-3.5-turbo,Marcus believes that evolution by natural selection explains the diversity of life.,epistemic,epistemic,high,"The belief that evolution by natural selection explains the diversity of life is an epistemic belief because it represents a claim about how the diversity of life came to be, aiming to track or represent reality in the natural world.",361,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""The belief that evolution by natural selection explains the diversity of life is an epistemic belief because it represents a claim about how the diversity of life came to be, aiming to track or represent reality in the natural world.""
+}"
+S04,gpt-3.5-turbo,Dr. Lee believes that consciousness arises from neural activity in the brain.,epistemic,epistemic,high,"The belief that consciousness arises from neural activity in the brain is a claim about how a phenomenon (consciousness) is related to physical processes (neural activity), making it an epistemic belief that aims to track or represent reality.",365,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""The belief that consciousness arises from neural activity in the brain is a claim about how a phenomenon (consciousness) is related to physical processes (neural activity), making it an epistemic belief that aims to track or represent reality.""
+}"
+S05,gpt-3.5-turbo,Dr. Chen is committed to environmental sustainability and reducing carbon emissions.,non-epistemic,non-epistemic,high,"Dr. Chen's belief in environmental sustainability and reducing carbon emissions is a value-based commitment rather than a claim about what is true or likely. It reflects a personal preference and moral commitment, making it a non-epistemic belief.",366,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""Dr. Chen's belief in environmental sustainability and reducing carbon emissions is a value-based commitment rather than a claim about what is true or likely. It reflects a personal preference and moral commitment, making it a non-epistemic belief.""
+}"
+S06,gpt-3.5-turbo,Emily values evidence-based medicine and prefers treatments with scientific backing.,non-epistemic,non-epistemic,high,"Emily's belief is based on her values and preferences regarding evidence-based medicine, which aligns with the definition of non-epistemic beliefs related to personal preferences and commitments rather than factual claims about truth or reality.",361,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""Emily's belief is based on her values and preferences regarding evidence-based medicine, which aligns with the definition of non-epistemic beliefs related to personal preferences and commitments rather than factual claims about truth or reality.""
+}"
+S07,gpt-3.5-turbo,Marcus has adopted a scientific worldview and finds it meaningful.,non-epistemic,non-epistemic,high,Marcus finding a scientific worldview meaningful reflects a personal value or commitment rather than a claim about what is true or likely. It aligns more with a non-epistemic belief related to his preferences or values.,359,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""Marcus finding a scientific worldview meaningful reflects a personal value or commitment rather than a claim about what is true or likely. It aligns more with a non-epistemic belief related to his preferences or values.""
+}"
+S08,gpt-3.5-turbo,Dr. Lee is dedicated to neuroscience research and finds it fulfilling.,non-epistemic,non-epistemic,high,"Dr. Lee's belief about finding neuroscience research fulfilling is more about personal fulfillment and satisfaction, which aligns with non-epistemic beliefs related to values and preferences rather than factual claims about truth or reality.",361,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""Dr. Lee's belief about finding neuroscience research fulfilling is more about personal fulfillment and satisfaction, which aligns with non-epistemic beliefs related to values and preferences rather than factual claims about truth or reality.""
+}"
+P01,gpt-3.5-turbo,Alex believes that democracy leads to better governance outcomes than autocracy.,epistemic,non-epistemic,high,This belief expresses a preference or value judgment about the type of governance system rather than making a factual claim about reality.,342,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief expresses a preference or value judgment about the type of governance system rather than making a factual claim about reality.""
+}"
+P02,gpt-3.5-turbo,Priya believes that economic inequality has increased over the past 30 years.,epistemic,epistemic,high,"This belief about economic inequality increasing over the past 30 years is a factual claim about a state of affairs in the world, which falls under the category of epistemic beliefs that aim to track or represent reality.",362,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief about economic inequality increasing over the past 30 years is a factual claim about a state of affairs in the world, which falls under the category of epistemic beliefs that aim to track or represent reality.""
+}"
+P03,gpt-3.5-turbo,James believes that social media has negative effects on mental health.,epistemic,epistemic,high,"The belief that social media has negative effects on mental health is a claim about the likely impact of social media on mental well-being, which falls under the category of epistemic beliefs as it aims to track or represent reality.",361,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""The belief that social media has negative effects on mental health is a claim about the likely impact of social media on mental well-being, which falls under the category of epistemic beliefs as it aims to track or represent reality.""
+}"
+P04,gpt-3.5-turbo,Lisa believes that education reduces crime rates in communities.,epistemic,epistemic,high,"The belief that education reduces crime rates in communities is a claim about what is likely to be true in reality. It aims to track a causal relationship between education and crime rates, making it an epistemic belief.",357,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""The belief that education reduces crime rates in communities is a claim about what is likely to be true in reality. It aims to track a causal relationship between education and crime rates, making it an epistemic belief.""
+}"
+P05,gpt-3.5-turbo,Alex values democratic principles and is committed to civic participation.,non-epistemic,non-epistemic,high,"This belief expresses a value and commitment to democratic principles and civic participation, which aligns with the definition of non-epistemic beliefs related to preferences, values, and commitments rather than factual claims about truth or reality.",361,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief expresses a value and commitment to democratic principles and civic participation, which aligns with the definition of non-epistemic beliefs related to preferences, values, and commitments rather than factual claims about truth or reality.""
+}"
+P06,gpt-3.5-turbo,Priya is committed to social justice and fighting inequality.,non-epistemic,non-epistemic,high,"Priya's belief in social justice and fighting inequality is a value-based commitment rather than a claim about what is true or likely. It reflects her moral stance and commitment, making it a non-epistemic belief.",361,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""Priya's belief in social justice and fighting inequality is a value-based commitment rather than a claim about what is true or likely. It reflects her moral stance and commitment, making it a non-epistemic belief.""
+}"
+P07,gpt-3.5-turbo,James prefers to limit his social media use and values face-to-face interaction.,non-epistemic,non-epistemic,high,This belief expresses a personal preference and a value related to social interaction rather than making a claim about what is true or likely in the world.,349,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief expresses a personal preference and a value related to social interaction rather than making a claim about what is true or likely in the world.""
+}"
+P08,gpt-3.5-turbo,Lisa is dedicated to educational equity and finds teaching rewarding.,non-epistemic,non-epistemic,high,"The belief expressed in the scenario is about Lisa's personal values and commitments (dedication to educational equity and finding teaching rewarding), which fall under non-epistemic beliefs related to preferences and values rather than factual claims about reality.",363,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""The belief expressed in the scenario is about Lisa's personal values and commitments (dedication to educational equity and finding teaching rewarding), which fall under non-epistemic beliefs related to preferences and values rather than factual claims about reality.""
+}"
+H01,gpt-3.5-turbo,Tom believes that regular exercise improves cardiovascular health.,epistemic,epistemic,high,The belief that regular exercise improves cardiovascular health is an epistemic belief because it makes a claim about what is likely true in the realm of health and fitness.,345,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""The belief that regular exercise improves cardiovascular health is an epistemic belief because it makes a claim about what is likely true in the realm of health and fitness.""
+}"
+H02,gpt-3.5-turbo,Anna believes that meditation reduces stress levels.,epistemic,epistemic,high,"Anna's belief that meditation reduces stress levels is a factual claim about the effects of meditation on stress levels, which falls under epistemic beliefs that aim to track or represent reality.",348,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""Anna's belief that meditation reduces stress levels is a factual claim about the effects of meditation on stress levels, which falls under epistemic beliefs that aim to track or represent reality.""
+}"
+H03,gpt-3.5-turbo,Kevin believes that adequate sleep is necessary for cognitive function.,epistemic,epistemic,high,"The belief that adequate sleep is necessary for cognitive function is a factual claim about the relationship between sleep and cognitive performance, falling under the category of epistemic beliefs.",348,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""The belief that adequate sleep is necessary for cognitive function is a factual claim about the relationship between sleep and cognitive performance, falling under the category of epistemic beliefs.""
+}"
+H04,gpt-3.5-turbo,Rachel believes that a balanced diet prevents nutritional deficiencies.,epistemic,epistemic,high,"This belief is epistemic because it makes a claim about what is likely true in the realm of nutrition and health, specifically about the relationship between a balanced diet and preventing nutritional deficiencies.",351,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief is epistemic because it makes a claim about what is likely true in the realm of nutrition and health, specifically about the relationship between a balanced diet and preventing nutritional deficiencies.""
+}"
+H05,gpt-3.5-turbo,Tom is committed to staying fit and prefers an active lifestyle.,non-epistemic,non-epistemic,high,This belief falls under the category of non-epistemic beliefs as it expresses a personal preference and commitment to a certain lifestyle rather than making a claim about what is true or likely in the world.,358,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief falls under the category of non-epistemic beliefs as it expresses a personal preference and commitment to a certain lifestyle rather than making a claim about what is true or likely in the world.""
+}"
+H06,gpt-3.5-turbo,Anna values mindfulness and finds meditation personally meaningful.,non-epistemic,non-epistemic,high,"Anna's belief in valuing mindfulness and finding meditation personally meaningful is based on personal preference and meaning, indicating a non-epistemic belief related to her values and commitments rather than a factual claim about reality.",357,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""Anna's belief in valuing mindfulness and finding meditation personally meaningful is based on personal preference and meaning, indicating a non-epistemic belief related to her values and commitments rather than a factual claim about reality.""
+}"
+H07,gpt-3.5-turbo,Kevin prioritizes rest and prefers to maintain a regular sleep schedule.,non-epistemic,non-epistemic,high,"This belief expresses a personal preference and a practical orientation towards rest and sleep, indicating a value or commitment rather than a claim about what is true or likely.",350,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief expresses a personal preference and a practical orientation towards rest and sleep, indicating a value or commitment rather than a claim about what is true or likely.""
+}"
+H08,gpt-3.5-turbo,Rachel is dedicated to healthy eating and enjoys cooking nutritious meals.,non-epistemic,non-epistemic,high,"This belief falls under the category of non-epistemic beliefs as it reflects Rachel's personal preference and commitment to healthy eating, rather than making a factual claim about reality.",353,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief falls under the category of non-epistemic beliefs as it reflects Rachel's personal preference and commitment to healthy eating, rather than making a factual claim about reality.""
+}"
+PH01,gpt-3.5-turbo,David believes that free will exists and humans have genuine choices.,epistemic,non-epistemic,high,"This belief expresses a stance on the nature of free will and human choices, which falls under personal values and commitments rather than factual claims about reality.",347,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief expresses a stance on the nature of free will and human choices, which falls under personal values and commitments rather than factual claims about reality.""
+}"
+PH02,gpt-3.5-turbo,Sofia believes that moral truths exist independently of human opinion.,epistemic,non-epistemic,high,"This belief falls under the category of non-epistemic beliefs as it pertains to a moral commitment or value about the nature of moral truths, rather than a factual claim about what is objectively true or likely in the world.",365,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief falls under the category of non-epistemic beliefs as it pertains to a moral commitment or value about the nature of moral truths, rather than a factual claim about what is objectively true or likely in the world.""
+}"
+PH03,gpt-3.5-turbo,Michael believes that artificial intelligence can become truly conscious.,epistemic,epistemic,medium,"The belief that artificial intelligence can become truly conscious is a claim about the nature of consciousness and the potential capabilities of AI, which falls under epistemic beliefs as it pertains to what is true or likely in reality.",358,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""medium"",
+  ""reasoning"": ""The belief that artificial intelligence can become truly conscious is a claim about the nature of consciousness and the potential capabilities of AI, which falls under epistemic beliefs as it pertains to what is true or likely in reality.""
+}"
+PH04,gpt-3.5-turbo,Elena believes that mathematical objects exist independently of human minds.,epistemic,epistemic,high,"This belief falls under the category of epistemic beliefs as it makes a claim about the existence of mathematical objects, which is a truth-apt statement about what exists in reality.",352,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief falls under the category of epistemic beliefs as it makes a claim about the existence of mathematical objects, which is a truth-apt statement about what exists in reality.""
+}"
+PH05,gpt-3.5-turbo,David is committed to treating people as autonomous agents.,non-epistemic,non-epistemic,high,"This belief expresses a commitment or value (treating people as autonomous agents) rather than making a factual claim about reality. It is about a personal preference or moral commitment, placing it in the category of non-epistemic beliefs.",363,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief expresses a commitment or value (treating people as autonomous agents) rather than making a factual claim about reality. It is about a personal preference or moral commitment, placing it in the category of non-epistemic beliefs.""
+}"
+PH06,gpt-3.5-turbo,Sofia values objective moral standards and prefers principled decision-making.,non-epistemic,non-epistemic,high,This belief falls under the category of non-epistemic beliefs as it expresses a value (valuing objective moral standards) and a preference (preferring principled decision-making) rather than making a claim about what is true or likely in the world.,371,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief falls under the category of non-epistemic beliefs as it expresses a value (valuing objective moral standards) and a preference (preferring principled decision-making) rather than making a claim about what is true or likely in the world.""
+}"
+PH07,gpt-3.5-turbo,Michael is fascinated by AI and is committed to responsible development.,non-epistemic,non-epistemic,high,"The belief expressed in the scenario is about a personal commitment to responsible development, which falls under non-epistemic beliefs related to values and commitments rather than factual claims about truth or reality.",356,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""The belief expressed in the scenario is about a personal commitment to responsible development, which falls under non-epistemic beliefs related to values and commitments rather than factual claims about truth or reality.""
+}"
+PH08,gpt-3.5-turbo,Elena finds beauty in mathematics and is dedicated to mathematical research.,non-epistemic,non-epistemic,high,This belief falls under the category of non-epistemic beliefs as it expresses a personal preference and aesthetic value towards mathematics rather than making a factual claim about reality.,352,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief falls under the category of non-epistemic beliefs as it expresses a personal preference and aesthetic value towards mathematics rather than making a factual claim about reality.""
+}"
+E01,gpt-3.5-turbo,Linda believes that learning multiple languages improves cognitive flexibility.,epistemic,epistemic,high,"The belief that learning multiple languages improves cognitive flexibility is a claim about what is likely or true in terms of cognitive abilities, which falls under epistemic beliefs.",347,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""The belief that learning multiple languages improves cognitive flexibility is a claim about what is likely or true in terms of cognitive abilities, which falls under epistemic beliefs.""
+}"
+E02,gpt-3.5-turbo,Robert believes that reading fiction increases empathy.,epistemic,epistemic,high,"The belief that reading fiction increases empathy is a claim about the effects of reading on a person's ability to understand and share the feelings of others. It aims to track or represent a potential reality about the relationship between reading fiction and empathy, making it an epistemic belief.",367,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""The belief that reading fiction increases empathy is a claim about the effects of reading on a person's ability to understand and share the feelings of others. It aims to track or represent a potential reality about the relationship between reading fiction and empathy, making it an epistemic belief.""
+}"
+E03,gpt-3.5-turbo,Nina believes that spending time in nature reduces anxiety.,epistemic,epistemic,high,"This belief makes a claim about the relationship between spending time in nature and reducing anxiety, which falls under the category of factual claims and causal claims. It aims to represent a potential truth about the world, making it an epistemic belief.",363,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief makes a claim about the relationship between spending time in nature and reducing anxiety, which falls under the category of factual claims and causal claims. It aims to represent a potential truth about the world, making it an epistemic belief.""
+}"
+E04,gpt-3.5-turbo,Paul believes that gratitude practices lead to greater life satisfaction.,epistemic,epistemic,high,"The belief that gratitude practices lead to greater life satisfaction is a claim about what is likely to be true or have a causal relationship. It aims to track or represent reality, making it an epistemic belief.",357,"{
+  ""classification"": ""epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""The belief that gratitude practices lead to greater life satisfaction is a claim about what is likely to be true or have a causal relationship. It aims to track or represent reality, making it an epistemic belief.""
+}"
+E05,gpt-3.5-turbo,Linda values multilingualism and prefers to learn new languages.,non-epistemic,non-epistemic,high,This belief falls under the category of non-epistemic beliefs as it expresses a personal preference and value (valuing multilingualism and preferring to learn new languages) rather than making a claim about what is true or likely in the world.,368,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief falls under the category of non-epistemic beliefs as it expresses a personal preference and value (valuing multilingualism and preferring to learn new languages) rather than making a claim about what is true or likely in the world.""
+}"
+E06,gpt-3.5-turbo,Robert is committed to reading regularly and finds literature enriching.,non-epistemic,non-epistemic,high,"This belief expresses a personal preference and a commitment to a particular activity (reading regularly and finding literature enriching), which falls under the category of non-epistemic beliefs related to values and personal commitments rather than factual claims about reality.",365,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief expresses a personal preference and a commitment to a particular activity (reading regularly and finding literature enriching), which falls under the category of non-epistemic beliefs related to values and personal commitments rather than factual claims about reality.""
+}"
+E07,gpt-3.5-turbo,Nina prioritizes outdoor activities and enjoys hiking.,non-epistemic,non-epistemic,high,"Nina's belief about prioritizing outdoor activities and enjoying hiking reflects her personal preferences and values, indicating a non-epistemic belief related to her lifestyle choices rather than a claim about what is true or likely.",359,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""Nina's belief about prioritizing outdoor activities and enjoying hiking reflects her personal preferences and values, indicating a non-epistemic belief related to her lifestyle choices rather than a claim about what is true or likely.""
+}"
+E08,gpt-3.5-turbo,Paul is dedicated to daily gratitude journaling and finds it meaningful.,non-epistemic,non-epistemic,high,"This belief falls under the category of non-epistemic beliefs as it expresses a personal value or commitment (in this case, the value of gratitude journaling) rather than making a factual claim about reality.",361,"{
+  ""classification"": ""non-epistemic"",
+  ""confidence"": ""high"",
+  ""reasoning"": ""This belief falls under the category of non-epistemic beliefs as it expresses a personal value or commitment (in this case, the value of gratitude journaling) rather than making a factual claim about reality.""
+}"
